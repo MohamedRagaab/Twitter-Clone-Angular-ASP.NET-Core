@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Sidebar Starts -->
+    <div class="sidebar">
+      <i class="fab fa-twitter"></i>
+      <div class="sidebarOption active">
+        <span class="material-icons"> home </span>
+        <a routerLink="home" class="sidewords" ><h2>Home</h2></a>
+      </div>
+
+      <div class="sidebarOption">
+        <span class="material-icons"> search </span>
+        <a routerLink="explore" class="sidewords" ><h2 >Explore</h2></a>
+      </div> 
+
+      <div class="sidebarOption">
+        <span class="material-icons"> notifications </span>
+        <a routerLink="" class="sidewords" ><h2>Notifications</h2></a>
+      </div>
+
+      <div class="sidebarOption">
+        <span class="material-icons"> email </span>
+        <a routerLink="" class="sidewords" ><h2>Messages</h2></a>
+      </div>
+
+      <div class="sidebarOption">
+        <span class="material-icons"> bookmark_border </span>
+        <a routerLink="" class="sidewords" ><h2>Bookmarks</h2></a>
+      </div>
+
+      <div class="sidebarOption">
+        <span class="material-icons"> list_alt </span>
+        <a routerLink="" class="sidewords" ><h2>Lists</h2></a>
+      </div>
+
+      <div class="sidebarOption">
+        <span class="material-icons"> perm_identity </span>
+        <a routerLink="" class="sidewords" ><h2>Profile</h2></a>
+      </div>
+
+      <div class="sidebarOption">
+        <span class="material-icons"> more_horiz </span>
+        <a routerLink="" class="sidewords" ><h2>More</h2></a>
+      </div>
+      <button class="sidebar__tweet">Tweet</button>
+    </div>
+    <!-- Sidebar Ends -->
+    <router-outlet></router-outlet>
+    
+    <!-- Widgets Starts-->
+    <div class="widgets">
+      <div class="widgets_input">
+        <span class="material-icons widget_searchIcon"> search </span>
+        <input type="text" placeholder="Search Twitter" />
+      </div>
+      <div class="widget_container">
+        <h2>What's happening?</h2>
+        
+      </div>
+    </div>
+    <!-- Widgets Ends-->
+    <!-- ************************* -->
+  </body>
+</html>
