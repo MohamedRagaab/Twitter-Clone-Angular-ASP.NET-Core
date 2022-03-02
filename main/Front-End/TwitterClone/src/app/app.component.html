@@ -18,7 +18,7 @@
       rel="stylesheet"
     />
   </head>
-  <body [style.background-color]="islogin? '' : 'black'" >
+  <body>
     <!-- Sidebar Starts -->
     <div id="sidebar" [style.display]="islogin? '' : 'block'" [style.visibility]="islogin? '' : 'hidden' " [style.background-color]="islogin? '' : 'black'">
       <i class="fab fa-twitter"></i>
@@ -68,7 +68,7 @@
     <router-outlet></router-outlet>
 
     <!-- Widgets Starts-->
-    <div class="widgets" [style.display]="islogin? '' : 'block'" [style.visibility]="islogin? '' : 'hidden'" [style.background-color]="islogin? '' : 'black'">
+    <div class="widgets">
       <div class="widgets_input">
         <span class="material-icons widget_searchIcon"> search </span>
         <input type="text" placeholder="Search Twitter" />

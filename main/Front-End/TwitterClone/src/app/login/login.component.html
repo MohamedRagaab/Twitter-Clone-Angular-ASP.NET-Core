@@ -1,2 +1,15 @@
-<p>login works!</p>
-<input type="button" placeholder="Login" (click)="login()">
+<div class="login_container">
+    <h2>Login Twitter</h2>
+    <div class="email_box">
+        <h5>Enter Your Email</h5>
+        <input type="text" placeholder="email">
+    </div>
+    <div class="email_box">
+        <input type="text" placeholder="password">
+    </div>
+</div>
+
+<p> Hello {{httpService.users[0].name}}</p>
+
+
+
