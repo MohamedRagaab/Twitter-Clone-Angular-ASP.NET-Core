@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -17,13 +18,13 @@
       rel="stylesheet"
     />
   </head>
-  <body>
+  <body [style.background-color]="islogin? '' : 'black'" >
     <!-- Sidebar Starts -->
-    <div class="sidebar">
+    <div id="sidebar" [style.display]="islogin? '' : 'block'" [style.visibility]="islogin? '' : 'hidden' " [style.background-color]="islogin? '' : 'black'">
       <i class="fab fa-twitter"></i>
       <div class="sidebarOption active">
         <span class="material-icons"> home </span>
-        <a routerLink="home" class="sidewords" ><h2>Home</h2></a>
+        <a routerLink="feed" class="sidewords" ><h2>Home</h2></a>
       </div>
 
       <div class="sidebarOption">
@@ -33,40 +34,41 @@
 
       <div class="sidebarOption">
         <span class="material-icons"> notifications </span>
-        <a routerLink="" class="sidewords" ><h2>Notifications</h2></a>
+        <a routerLink="notifications" class="sidewords" ><h2>Notifications</h2></a>
       </div>
 
       <div class="sidebarOption">
         <span class="material-icons"> email </span>
-        <a routerLink="" class="sidewords" ><h2>Messages</h2></a>
+        <a routerLink="messages" class="sidewords" ><h2>Messages</h2></a>
       </div>
 
       <div class="sidebarOption">
         <span class="material-icons"> bookmark_border </span>
-        <a routerLink="" class="sidewords" ><h2>Bookmarks</h2></a>
+        <a routerLink="bookmarks" class="sidewords" ><h2>Bookmarks</h2></a>
       </div>
 
       <div class="sidebarOption">
         <span class="material-icons"> list_alt </span>
-        <a routerLink="" class="sidewords" ><h2>Lists</h2></a>
+        <a routerLink="lists" class="sidewords" ><h2>Lists</h2></a>
       </div>
 
       <div class="sidebarOption">
         <span class="material-icons"> perm_identity </span>
-        <a routerLink="" class="sidewords" ><h2>Profile</h2></a>
+        <a routerLink="profile" class="sidewords" ><h2>Profile</h2></a>
       </div>
 
       <div class="sidebarOption">
         <span class="material-icons"> more_horiz </span>
-        <a routerLink="" class="sidewords" ><h2>More</h2></a>
+        <a routerLink="profile" class="sidewords" ><h2>More</h2></a>
       </div>
       <button class="sidebar__tweet">Tweet</button>
     </div>
     <!-- Sidebar Ends -->
+
     <router-outlet></router-outlet>
-    
+
     <!-- Widgets Starts-->
-    <div class="widgets">
+    <div class="widgets" [style.display]="islogin? '' : 'block'" [style.visibility]="islogin? '' : 'hidden'" [style.background-color]="islogin? '' : 'black'">
       <div class="widgets_input">
         <span class="material-icons widget_searchIcon"> search </span>
         <input type="text" placeholder="Search Twitter" />
@@ -80,3 +82,4 @@
     <!-- ************************* -->
   </body>
 </html>
+

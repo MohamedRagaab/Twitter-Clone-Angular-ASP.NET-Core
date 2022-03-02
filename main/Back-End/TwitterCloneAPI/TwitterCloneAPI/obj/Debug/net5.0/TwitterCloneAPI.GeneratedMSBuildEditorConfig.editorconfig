@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = TwitterCloneAPI
-build_property.ProjectDir = G:\GitHub\TwitterClone\Back-End\TwitterCloneAPI\TwitterCloneAPI\
+build_property.ProjectDir = G:\GitHub\TwitterClone\main\Back-End\TwitterCloneAPI\TwitterCloneAPI\

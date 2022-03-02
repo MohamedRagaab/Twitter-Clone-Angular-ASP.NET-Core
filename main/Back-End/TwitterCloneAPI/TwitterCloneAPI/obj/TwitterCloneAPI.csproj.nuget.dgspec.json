@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\GitHub\\TwitterClone\\Back-End\\TwitterCloneAPI\\TwitterCloneAPI\\TwitterCloneAPI.csproj": {}
+    "G:\\GitHub\\TwitterClone\\main\\Back-End\\TwitterCloneAPI\\TwitterCloneAPI\\TwitterCloneAPI.csproj": {}
   },
   "projects": {
-    "G:\\GitHub\\TwitterClone\\Back-End\\TwitterCloneAPI\\TwitterCloneAPI\\TwitterCloneAPI.csproj": {
+    "G:\\GitHub\\TwitterClone\\main\\Back-End\\TwitterCloneAPI\\TwitterCloneAPI\\TwitterCloneAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\GitHub\\TwitterClone\\Back-End\\TwitterCloneAPI\\TwitterCloneAPI\\TwitterCloneAPI.csproj",
+        "projectUniqueName": "G:\\GitHub\\TwitterClone\\main\\Back-End\\TwitterCloneAPI\\TwitterCloneAPI\\TwitterCloneAPI.csproj",
         "projectName": "TwitterCloneAPI",
-        "projectPath": "G:\\GitHub\\TwitterClone\\Back-End\\TwitterCloneAPI\\TwitterCloneAPI\\TwitterCloneAPI.csproj",
+        "projectPath": "G:\\GitHub\\TwitterClone\\main\\Back-End\\TwitterCloneAPI\\TwitterCloneAPI\\TwitterCloneAPI.csproj",
         "packagesPath": "C:\\Users\\Mohamed\\.nuget\\packages\\",
-        "outputPath": "G:\\GitHub\\TwitterClone\\Back-End\\TwitterCloneAPI\\TwitterCloneAPI\\obj\\",
+        "outputPath": "G:\\GitHub\\TwitterClone\\main\\Back-End\\TwitterCloneAPI\\TwitterCloneAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

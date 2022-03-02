@@ -149,8 +149,11 @@
   font-size: 15px;
 }
 
-.iconnumbers {
+.post_icons{
+  display: inline-flex;
+  flex-direction: row;
 }
+
 .post_body {
   flex: 1;
   padding: 10px;

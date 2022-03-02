@@ -14,6 +14,8 @@ import { ListsComponent } from './lists/lists.component';
 import { ProfileComponent } from './profile/profile.component';
 import { MoreComponent } from './more/more.component';
 import { HomeComponent } from './home/home.component';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
 
 @NgModule({
   declarations: [
@@ -25,14 +27,17 @@ import { HomeComponent } from './home/home.component';
     ListsComponent,
     ProfileComponent,
     MoreComponent,
-    HomeComponent
+    HomeComponent,
+    LoginComponent,
+    RegisterComponent,
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
     FormsModule,
     ReactiveFormsModule,
-    AppRoutingModule
+    AppRoutingModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]

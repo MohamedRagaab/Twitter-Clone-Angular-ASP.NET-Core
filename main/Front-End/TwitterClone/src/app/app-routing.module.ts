@@ -8,48 +8,22 @@ import { BookmarksComponent } from './bookmarks/bookmarks.component';
 import { ListsComponent } from './lists/lists.component';
 import { ProfileComponent } from './profile/profile.component';
 import { HomeComponent } from './home/home.component';
+import { LoginComponent } from './login/login.component';
+import { AuthGuard } from './shared/auth.guard';
+import { RegisterComponent } from './register/register.component';
 
 const routes: Routes = [
-  {
-    path:'',
-    component:HomeComponent,
-    pathMatch:'full'
-  },
-  {
-    path:'home',
-    component:HomeComponent,
-    pathMatch:'full'
-  },
-  {
-    path:'explore',
-    component:ExploreComponent,
-    pathMatch:'full'
-  },
-  {
-    path:'notification',
-    component:NotificationsComponent,
-    pathMatch:'full'
-  },
-  {
-    path:'messages',
-    component:MessagesComponent,
-    pathMatch:'full'
-  },
-  {
-    path:'bookmarks',
-    component:BookmarksComponent,
-    pathMatch:'full'
-  },
-  {
-    path:'lists',
-    component:ListsComponent,
-    pathMatch:'full'
-  },
-  {
-    path:'profile',
-    component:ProfileComponent,
-    pathMatch:'full'
-  },
+  {path:'',component:HomeComponent, canActivate: [AuthGuard]},
+  {path:'login',component:LoginComponent},
+  {path:'register',component:RegisterComponent},
+  {path:'explore',component:ExploreComponent},
+  {path:'notifications',component:NotificationsComponent},
+  {path:'messages',component:MessagesComponent},
+  {path:'bookmarks',component:BookmarksComponent },
+  {path:'lists',component:ListsComponent},
+  {path:'profile',component:ProfileComponent},
+  // otherwise return to home
+  {path:'**', redirectTo:''}
 ];
 
 @NgModule({
