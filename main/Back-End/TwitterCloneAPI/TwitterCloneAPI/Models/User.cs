@@ -13,7 +13,7 @@ namespace TwitterCloneAPI.Models
         public string PhoneNumber { get; set; }
         public string Image { get; set; }
         public string Date { get; set; }
-        //public List<User> Friends;
-        //public List<Post> Posts;
+        public List<User> Friends;
+        public List<Post> Posts;
     }
 }

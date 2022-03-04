@@ -1,15 +1,49 @@
-<div class="login_container">
-    <h2>Login Twitter</h2>
-    <div class="email_box">
-        <h5>Enter Your Email</h5>
-        <input type="text" placeholder="email">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Twitter</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="login_page">
+      <div class="login_container">
+        <span class="icons_row">
+          <span class="material-icons close_login_icon"> close </span>
+          <i class="fab fa-twitter close_login_icon"></i>
+        </span>
+        <h5>Sign in to Twitter</h5>
+        <div class="google_button">
+          <button class="button1">Sign in with google</button>
+        </div>
+        <div class="or_raw">
+          <hr />
+          <span> or </span>
+          <hr />
+        </div>
+        <div class="email_input">
+          <input type="text" placeholder="phone, email, or username" />
+        </div>
+        <div class="google_button">
+            <button class="button2">Next</button>
+        </div>
+        <div class="google_button2">
+          <button class="button3">Forget Password?</button>
+        </div>
+        <p>Don't have an account? <a href="" class="signUp_link">Sign up</a></p>
+      </div>
     </div>
-    <div class="email_box">
-        <input type="text" placeholder="password">
-    </div>
-</div>
-
-<p> Hello {{httpService.users[0].name}}</p>
-
-
-
+  </body>
+</html>
