@@ -21,23 +21,23 @@ namespace TwitterCloneAPI.Controllers
         }
 
         // GET: api/Users
+        /*
         [HttpGet]
         public async Task<ActionResult<IEnumerable<User>>> GetUser()
         {
             return await _context.User.ToListAsync();
         }
-
+        */
         // GET: api/Users/5
-        [HttpGet("{id}")]
-        public async Task<ActionResult<User>> GetUser(int id)
+        //[HttpGet("{id}")]
+        [HttpGet]
+        public async Task<ActionResult<User>> GetUser(string email)
         {
-            var user = await _context.User.FindAsync(id);
-
-            if (user == null)
+            var user =  _context.User.Where(x => x.Email == email).FirstOrDefault();
+            if(user == null)
             {
                 return NotFound();
             }
-
             return user;
         }
 

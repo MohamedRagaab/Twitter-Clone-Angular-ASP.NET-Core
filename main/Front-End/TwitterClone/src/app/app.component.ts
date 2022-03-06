@@ -11,14 +11,8 @@ import { AuthService } from './shared/auth.service';
 export class AppComponent implements OnInit {
   constructor(private authService : AuthService, private router: Router ){ }
   title = 'TwitterClone';
-  islogin =false;
+
   ngOnInit(): void {
-    if(this.authService.IsLogedIn() == true){
-      this.router.navigate(['']);
-      this.islogin = true;
-    }else{
       this.router.navigate(['login']);
-      this.islogin = false;
-    }
   }
 }
