@@ -25,6 +25,6 @@ it is a Twitter clone web application which is written in TypeScript, CSharp and
 </div>
 
 <div align='center'>
-<img height="350px" src="https://user-images.githubusercontent.com/38363762/157329476-c1b192a0-de56-42f2-83a0-9e2e47ff6bdc.PNG">
+<img height="400px" src="https://user-images.githubusercontent.com/38363762/157329476-c1b192a0-de56-42f2-83a0-9e2e47ff6bdc.PNG">
 <hr/>
 
