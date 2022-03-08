@@ -45,9 +45,6 @@
     transition: color 100 ms ease-out;
   }
   
-  .sidebarOption.active {
-    color: var(--twitter-color);
-  }
   
   .sidebar__tweet {
     width: 200px;
@@ -70,7 +67,6 @@
   /* Widets */
   
   .widgets {
-    
     margin-right: 20px;
   }
   .widgets_input {

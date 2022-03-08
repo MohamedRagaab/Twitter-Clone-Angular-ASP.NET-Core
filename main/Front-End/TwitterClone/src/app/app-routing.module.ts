@@ -16,6 +16,7 @@ import { LayoutComponent } from './layout/layout.component';
 const routes: Routes = [
   {path:'',component:LayoutComponent, canActivate: [AuthGuard],
   children:[
+    {path:'',component:HomeComponent},
     {path:'home',component:HomeComponent},
     {path:'explore',component:ExploreComponent},
     {path:'notifications',component:NotificationsComponent},

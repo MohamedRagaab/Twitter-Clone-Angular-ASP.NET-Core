@@ -2,7 +2,7 @@
   flex: 0.5;
   border-right: 1px soid var(--twitter-background);
   min-width: fit-content;
-  overflow-y: scroll;
+  border-left: 1px solid var(--twitter-background);
 }
 
 .feed_header {
@@ -33,6 +33,7 @@
 .tweetBox {
   padding-bottom: 10px;
   border-bottom: 8px solid var(--twitter-background);
+  border-right: 1px solid var(--twitter-background);
   padding-right: 10px;
 }
 .tweetBox form {

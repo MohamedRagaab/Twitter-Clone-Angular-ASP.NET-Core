@@ -25,26 +25,20 @@
           <i class="fab fa-twitter close_login_icon"></i>
         </span>
         <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
-        <h5>Sign in to Twitter</h5>
-        <div class="google_button">
-          <input class="button1" placeholder="Sign in with google" type="button">
-        </div>
-        <div class="or_raw">
-          <hr />
-          <span> or </span>
-          <hr />
-        </div>
-        <div class="email_input">
-          <input formControlName="email" type="text" placeholder="phone, email, or username" />
-        </div>
-        <div class="google_button">
-            <input type="submit" class="button2" placeholder="Next">
-        </div>
-        <div class="google_button2">
-          <input class="button3" placeholder="Forget Password?" type="button">
-        </div>
-      </form>
-        <p>Don't have an account? <a href="" class="signUp_link">Sign up</a></p>
+          <h5>Sign in to Twitter</h5>
+          <button class="btn btn-outline-dark button1" type="button">Sign in with Google</button>
+          <div class="or_raw">
+            <hr />
+            <span> or </span>
+            <hr />
+          </div>
+          <input class="email_input" formControlName="email" type="text" placeholder="phone, email, or username"/>
+          <div style="height: 30px;"></div>
+          <input class="email_input" formControlName="password" type="text" placeholder="Password"/>
+          <button type="submit" class="btn btn-dark button1">Next</button>
+          <button class="btn btn-outline-dark button1" type="button">Forget Password?</button>
+        </form>
+        <p>Don't have an account? <button class="signUp_link" (click)="onClick()" >Sign up</button></p>
       </div>
     </div>
   </body>

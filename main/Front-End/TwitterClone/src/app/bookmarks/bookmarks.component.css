@@ -1,0 +1,27 @@
+.explore{
+    min-width: fit-content;
+}
+.explore_search {
+    display: flex;
+    width: 600px;
+}
+.explore_search_input{
+    padding: 10x;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 500px;
+}
+.bookmarks{
+    font-weight: 500;
+    font-size: 20px;
+    display: block;
+}
+.username{
+    font-size: 14px;
+}
+.save_tweets_img{
+    padding-top: 40px;
+    text-align: center;
+}

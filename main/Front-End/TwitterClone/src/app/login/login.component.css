@@ -6,19 +6,15 @@
 body{
     --twitter-color: #50b7f5;
     --twitter-background: #e6ecf0;
-    display: flex;
-    height: 100vh;
-    max-width: 1300px;
     margin-left: auto;
     margin-right: auto;
 }
+
 .login_page{
     background-color: #999999;
     margin:0px;
     height:100%;
     padding: 0;
-    display: flex;
-    flex-direction: column;
     /******/
     bottom: 0;
     right: 0;
@@ -29,56 +25,36 @@ body{
 
 .login_container{
     background-color: #FFFFFF;
-    width: 585px;
+    width: 500px;
     margin: auto;
     margin-top: 120px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 .login_container h5{
-    padding-left: 150px;
-    padding-right: 280px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-.google_button{
-     padding-left: 150px;
-     margin-top: 10px;
-     margin-bottom: 10px;
-     border-radius: 15px;
-}
-.google_button2{
-    padding-left: 150px;
     margin-top: 30px;
-    margin-bottom: 30px;
-    border-radius: 15px;
-}
-.button1, .button2, .button3{
-    border-radius: 15px;
-    border: 1px solid #CFD9DE;
-    background-color: #FFFFFF;
-    width: 60%;
-    height: 150%;
+    margin-left: 25%;
 }
 
-.button1, .button3 :hover{
-    transition: color 100 ms ease-out;
-    cursor: pointer;
-    background-color: #CFD9DE;
+.button1, .button2, .button3{
+    display: block;
+    margin-top: 30px;
+    margin-left: 25%;
+    width: 50%;
+    height: 30px;
 }
+
 
 .login_container hr{
-    border-top: 1px solid gray;
+    border-top: 2px solid gray;
     width: 130px;
     display: inline-block;
 }
 .or_raw{
-    padding-top: 10px;
-    padding-bottom: 20px;
-    margin-left: 24%;
-    text-align: start;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
 }
 .icons_row{
     width: 100%;
@@ -103,32 +79,25 @@ body{
     color: var(--twitter-color);
     font-size: 30px;
   }
-
-  .login_container input{
-      width: 100%;
-      height: 200%;
-      border: 1px solid #CFD9DE;
-  }
-
   .login_container input:focus{
     outline: none !important;
     border: 2px solid var(--twitter-color);
   }
   .email_input{
-    padding-left: 150px;
-    width: 70%;
-    padding-bottom: 40px;
+    margin-left: 25%;
+    width: 50%;
   }
   
   .login_container p{
       text-align: center;
       margin-bottom: 50px;
+      margin-top: 30px;
   }
-  .button2{
-      background-color: black;
-      color: #FFFFFF;
-  }
+
   .signUp_link{
       text-decoration: none;
       color: var(--twitter-color);
+      cursor: pointer;
+      border: none;
+      background-color: white;
   }

@@ -13,6 +13,7 @@ export class LoginComponent implements OnInit {
 
   loginForm = new FormGroup({
     email: new FormControl(''),
+    password: new FormControl(''),
   });
 
   constructor(
@@ -27,6 +28,11 @@ export class LoginComponent implements OnInit {
   }
   onSubmit(){
     console.log(this.loginForm.value);
-    this.router.navigate(['/home']);
+    if(this.loginForm.value.password == '221999'){
+      this.router.navigate(['/home']);
+    }
+  }
+  onClick(){
+    this.router.navigate(['/register']);
   }
 }

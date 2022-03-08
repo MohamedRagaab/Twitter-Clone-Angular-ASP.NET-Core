@@ -22,13 +22,12 @@ export class AuthService {
     });
   }
 
-    /* Get Login User *******************************************************************************************************************************/
-    getLoginUser(){
-
-      this.http.get<User>(this.url+"?email=").subscribe(data => {
-        console.log(data);
-        this.user = data;
-      });
-    }
+  /* Get Login User *******************************************************************************************************************************/
+  getLoginUser(){
+    this.http.get<User>(this.url+"?email=").subscribe(data => {
+      console.log(data);
+      this.user = data;
+    });
+  }
   
 }

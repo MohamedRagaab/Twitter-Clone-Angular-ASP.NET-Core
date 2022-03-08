@@ -1,0 +1,42 @@
+.explore{
+    min-width: fit-content;
+}
+.explore_search {
+    display: flex;
+    width: 600px;
+}
+.explore_search_input{
+   
+
+    
+    padding: 10x;
+    
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 500px;
+}
+
+.settings_icon{
+    padding: 15px;
+    color: rgb(85, 84, 84);
+    cursor: pointer;
+}
+.settings_icon:hover{
+    background-color: #EFF3F4;
+    transition: 0.5s;
+}
+.explore_menue{
+    display: flex;
+}
+.explore_menue_item{
+    flex: 1;
+    text-decoration: none;
+    color: inherit;
+    padding: 18px;
+    text-align: center;
+}
+.explore_menue_item:hover{
+    background-color: #EFF3F4;
+    transition: 0.5s;
+}
