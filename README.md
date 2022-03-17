@@ -25,10 +25,10 @@ it is a Twitter clone web application which is written in TypeScript, CSharp and
 </div>
 
 <div align='center'>
-<img height="480px" src="https://user-images.githubusercontent.com/38363762/157329476-c1b192a0-de56-42f2-83a0-9e2e47ff6bdc.PNG">
+<img height="490px" src="https://user-images.githubusercontent.com/38363762/157329476-c1b192a0-de56-42f2-83a0-9e2e47ff6bdc.PNG">
 <hr/>
 
 <div align='center'>
-<img height="480px" src="https://user-images.githubusercontent.com/38363762/158830290-122f1127-c2d5-4250-add6-0d9cca3c5c54.PNG">
+<img height="400px" src="https://user-images.githubusercontent.com/38363762/158830290-122f1127-c2d5-4250-add6-0d9cca3c5c54.PNG">
 <hr/>
 
