@@ -34,6 +34,6 @@ it is a Twitter clone web application which is written in TypeScript, CSharp and
 <hr/>
 
 <div align='center'>
-<img height="490px" src="https://user-images.githubusercontent.com/38363762/158845678-bdfe6c8f-954c-489e-a485-b312190f63cb.png">
+<img height="450px" src="https://user-images.githubusercontent.com/38363762/158845678-bdfe6c8f-954c-489e-a485-b312190f63cb.png">
 <hr/>
 
