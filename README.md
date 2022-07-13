@@ -1,5 +1,6 @@
 # Twitter Clone
-it is a Twitter clone web application which is written in TypeScript, CSharp and SQL
+* it is a Twitter clone web application which is written in TypeScript, CSharp and SQL
+* Try it (password = 221999) [Link](https://mohamedragaab.github.io/TwitterClone/login)
 ## Languages and frameworks 📑
 * TypeScript (Angular) 
 * C# (ASP.NET Core Web API)
