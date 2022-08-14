@@ -33,7 +33,7 @@ namespace TwitterCloneAPI.Controllers
         [HttpGet]
         public async Task<ActionResult<User>> GetUser(string email)
         {
-            var user = _context.User.Where(x => x.Email == email).FirstOrDefault();
+            var user =  _context.User.Where(x => x.Email == email).FirstOrDefault();
             if(user == null)
             {
                 return NotFound();

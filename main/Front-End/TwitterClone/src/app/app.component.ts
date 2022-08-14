@@ -11,7 +11,7 @@ import { AuthService } from './shared/auth.service';
 export class AppComponent implements OnInit {
   constructor(private authService : AuthService, private router: Router ){ }
   title = 'TwitterClone';
-
+  
   ngOnInit(): void {
       this.router.navigate(['login']);
   }
